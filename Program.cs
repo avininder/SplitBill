@@ -14,10 +14,10 @@ namespace SplitBill
 
                 string filename = "splitbill", filepath = "";
                 int count = 0, index = 0, charges = 0;
-                float sum = 0;
+                double sum = 0;
                 string[] content;
-                List<float> participantcontrib = new List<float>();
-                List<string> participantshare = new List<string>();
+                List<double> paid = new List<double>();
+                List<string> share = new List<string>();
             
                 filepath = AppDomain.CurrentDomain.BaseDirectory + filename + ".txt";
 
@@ -40,27 +40,27 @@ namespace SplitBill
                         for (int j = 1; j <= charges; j++)
                         {
                             //sum of each group receipt value
-                            sum = sum + float.Parse(content[index]);
+                            sum = sum + double.Parse(content[index]);
                             index++;
                         }
 
                         //store the receipt sum in the List 
-                        participantcontrib.Add(sum);  
+                        paid.Add(sum);  
                         sum = 0;
                     }
                     //Loop through to calculate participant share 
                     for (int i = 0; i < count; i++)
                     {
-                        participantshare.Add((participantcontrib.Average() - participantcontrib[i]).ToString("#,##0.00;(#,##0.00)"));                        
+                        share.Add((paid.Average() - paid[i]).ToString("#,##0.00;(#,##0.00)"));                        
                     }
 
                     //clear the trip participants contribution list for next trip calculation
-                    participantcontrib.Clear();
-                    participantshare.Add("");
+                    paid.Clear();
+                    share.Add("");
                 }
 
                 File.Delete(filepath + ".out");
-                File.WriteAllLines(filepath + ".out", participantshare);
+                File.WriteAllLines(filepath + ".out", share);
                 Console.WriteLine("Output File:  " + filepath + ".out");  
             
         }         

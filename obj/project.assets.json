@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\SplitBill.csproj",
+      "projectUniqueName": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\SplitBill\\SplitBill.csproj",
       "projectName": "SplitBill",
-      "projectPath": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\SplitBill.csproj",
+      "projectPath": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\SplitBill\\SplitBill.csproj",
       "packagesPath": "C:\\Users\\avini\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\obj\\",
+      "outputPath": "C:\\Users\\avini\\OneDrive\\Documents\\visual\\SplitBill\\SplitBill\\SplitBill\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
