@@ -1,0 +1,11 @@
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\bin\Debug\netcoreapp2.0\SplitBill.deps.json
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\bin\Debug\netcoreapp2.0\SplitBill.runtimeconfig.json
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\bin\Debug\netcoreapp2.0\SplitBill.runtimeconfig.dev.json
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\bin\Debug\netcoreapp2.0\SplitBill.dll
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\bin\Debug\netcoreapp2.0\SplitBill.pdb
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.csprojAssemblyReference.cache
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.csproj.CoreCompileInputs.cache
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.AssemblyInfoInputs.cache
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.AssemblyInfo.cs
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.dll
+C:\Users\avini\OneDrive\Documents\visual\SplitBill\SplitBill\obj\Debug\netcoreapp2.0\SplitBill.pdb
